@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Loader = () => {
+const CanvasLoader = () => {
   return (
-    <div>Loader</div>
+    // <div>Loader</div>
+    console.log()
   )
 }
 
-export default Loader
+export default CanvasLoader
