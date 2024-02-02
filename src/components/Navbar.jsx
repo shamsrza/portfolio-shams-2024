@@ -33,7 +33,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`#${link.id}`} className={`${link.title === "Contact" ? "border-solid border-2 border-purple-500 py-2 px-3 rounded-sm" : "border-none"}`}>{link.title}</a>
             </li>
           ))}
         </ul>
@@ -49,15 +49,15 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-10 bg-black opacity-90 absolute top-20 left-0 w-[100vw] h-[100vh] z-10`}
           >
-            <ul className="list-none flex justify-end items-start flex-col gap-4">
+            <ul className="list-none flex justify-start items-start flex-col gap-4">
               {navLinks.map((link) => (
                 <li
                   key={link.id}
                   className={`${
-                    active === link.title ? "text-white" : "text-secondary"
-                  } font-poppins font-medium cursor-pointer text-[16px]`}
+                    active === link.title ? "text-purple-500" : "text-secondary"
+                  } font-poppins font-medium cursor-pointer text-[18px]`}
                   onClick={() => {setActive(link.title);
                   setToggle(!toggle);
                 }}
