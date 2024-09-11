@@ -40,24 +40,28 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
             >
               <img src={live} alt="live page" className='w-1/2 h-1/2 object-contain'/>
             </div>
+
           </div>
+
+          {/* <img src={owb} alt="" className='w-1/2 h-1/2 object-contain fixed bottom-0'/>  */}
         </div>
-        
         <div className="mt-5">
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px] h-[120px]'>{description}</p>
+          <div className='h-[50px] border-none'><img src={owb} alt="" className='w-[60%] object-contain'/></div>
         </div>
+
         <div className="mt-4 flex flew-wrap gap-2">
           {tags.map((tag) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
+
         </div>
-        <div className='absolute bottom-10 my-2'>
-          <img src={owb} alt="" className='w-1/2 h-1/2 object-contain'/> 
-        </div>
-              </Tilt>
+{/* <div className='absolute bottom-0'><img src={owb} alt="" className='w-1/2 h-1/2 object-contain'/> </div> */}
+
+        </Tilt>
     </motion.div>
   );
 }
