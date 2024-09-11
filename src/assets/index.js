@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live from "./live.gif";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,6 +30,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ow_brand from "./OW.png"
 
 export {
   logo,
@@ -37,6 +39,8 @@ export {
   mobile,
   web,
   github,
+  live,
+  ow_brand,
   menu,
   close,
   css,

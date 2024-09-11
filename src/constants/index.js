@@ -22,6 +22,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    ow_brand,
     threejs,
   } from "../assets";
   
@@ -217,6 +218,8 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/",
+      live_page: "https://www.oliverwyman.com/our-expertise/hubs/the-new-silk-road.html",
+      owb: ow_brand,
     },
     {
       name: "Job IT",
@@ -238,6 +241,8 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
+      live_page: "https://impact.oliverwyman.com/ksa-skillvisa-selfassessment/",
+      owb: ow_brand,
     },
     {
       name: "Trip Guide",
@@ -259,6 +264,8 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+      live_page: "",
+      owb: undefined,
     },
   ];
   
