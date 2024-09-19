@@ -4,6 +4,7 @@ import {motion} from 'framer-motion'
 import {styles} from '../styles'
 import {ComputersCanvas} from './canvas'
 import Computers from './canvas/Computers'
+import { fadeIn, textVariant } from "../utils/motion";
 
 const Hero = () => {
   return (
@@ -27,10 +28,18 @@ const Hero = () => {
           into interactive, user-friendly <br className="sm:block hidden" />{" "}
           digital experiences
           </p>
+          <motion.p variants={fadeIn ("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] relative">
+          <div>Try this 3D model, click and drag</div>
+          <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          </motion.p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      <ComputersCanvas className="focus:cursor-pointer"/>
 
       <div className="absolute xs:bottom-5 bottom-0 w-full flex justify-center items-center">
         <a href="#about" className='mt-[100px]'>
