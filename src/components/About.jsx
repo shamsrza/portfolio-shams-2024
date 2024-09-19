@@ -35,28 +35,33 @@ import {Tech} from '../components'
 const About = () => {
   return (
     <>
-    <motion.div variants={textVariant()} >
-      <p className={styles.sectionSubText}>Introduction</p>
-      <h2 className={styles.sectionHeadText}>Overview.</h2>
-    </motion.div>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
+      </motion.div>
 
-    <motion.p variants={fadeIn ("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-    </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        I’m a skilled software developer with a passion for crafting innovative
+        solutions using TypeScript and JavaScript. With expertise in frameworks
+        like React, Node.js, and Three.js, I transform ideas into dynamic,
+        scalable, and user-friendly applications. A fast learner and strong
+        collaborator, I work closely with clients to deliver real-world
+        solutions that are efficient and impactful. Ready to turn your vision
+        into reality? Let’s make it happen!
+      </motion.p>
 
-    {/* <div className="mt-20 flex flex-wrap gap-10">
+      {/* <div className="mt-20 flex flex-wrap gap-10">
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service}/>
       ))}
     </div> */}
 
-    <Tech />      
+      <Tech />
     </>
-  )
+  );
 }
 
 export default SectionWrapper (About, "about");

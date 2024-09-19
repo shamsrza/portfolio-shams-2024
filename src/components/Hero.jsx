@@ -28,8 +28,8 @@ const Hero = () => {
           into interactive, user-friendly <br className="sm:block hidden" />{" "}
           digital experiences
           </p>
-          <motion.p variants={fadeIn ("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] relative">
-          <div className='sm:object-none'>Try this 3D model, click and drag</div>
+          <motion.p variants={fadeIn ("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] relative hidden md:block">
+          <div>Click and drag 3D model</div>
           <div class="arrow">
             <span></span>
             <span></span>

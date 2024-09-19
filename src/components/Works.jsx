@@ -31,14 +31,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-11 h-11 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img src={github} alt="github" className='w-1/2 h-1/2 object-contain'/>
+              <img src={github} alt="github" className='w-[30px] h-[30px] object-contain'/>
             </div>
             {/* for live link create this button */}
             <div
               onClick={() => window.open(live_page, "_blank")}
               className="black-gradient w-11 h-11 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img src={live} alt="live page" className='w-1/2 h-1/2 object-contain'/>
+              <img src={live} alt="live page" className='w-[25px] h-[25px] object-contain rounded-full'/>
             </div>
 
           </div>
@@ -53,7 +53,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
         <div className="mt-4 flex flew-wrap gap-2">
           {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+            <p key={tag.name} className={`text-[14px]`}>
               #{tag.name}
             </p>
           ))}

@@ -15,11 +15,16 @@ import {
     git,
     figma,
     docker,
+    csharp,
+    sql,
     meta,
     starbucks,
     tesla,
     shopify,
     carrent,
+    nsr,
+    ssvisa,
+    socialx,
     jobit,
     tripguide,
     ow_brand,
@@ -93,10 +98,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -109,9 +114,17 @@ import {
       name: "figma",
       icon: figma,
     },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
     {
-      name: "docker",
-      icon: docker,
+      name: "c-sharp",
+      icon: csharp,
+    },
+    {
+      name: "sql",
+      icon: sql,
     },
   ];
   
@@ -199,74 +212,79 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "The New Silk Road",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Oliver Wyman’s 'The New Silk Road' webpage highlights the immense growth and evolving connectivity across Asia, the Middle East, and North Africa. ",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "javascript",
+          // color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "scss",
+          // color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "jquery",
+          // color: "green-text-gradient",
+        },
+        {
+          name: "svg_animation",
+          // color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: nsr,
+      source_code_link: "https://github.com/shamsrza/new_silk_road_dummy_code",
       live_page: "https://www.oliverwyman.com/our-expertise/hubs/the-new-silk-road.html",
       owb: ow_brand,
     },
     {
-      name: "Job IT",
+      name: "Saudi Arabia's Work Visa",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This assessment tool is for use by the government bodies, private sector and employees to assess the visa application and to understand the rules within the work visa system in KSA.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "javascript",
+          // color: "blue-text-gradient",
         },
         {
           name: "scss",
-          color: "pink-text-gradient",
+          // color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          // color: "green-text-gradient",
+        },
+        {
+          name: "quiz_logic",
+          // color: "green-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ssvisa,
+      source_code_link: "https://github.com/shamsrza/assessment-tool-for-saudi-arabia-work-visa",
       live_page: "https://impact.oliverwyman.com/ksa-skillvisa-selfassessment/",
       owb: ow_brand,
     },
     {
-      name: "Trip Guide",
+      name: "SocialX",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "SocialX is react landing page, designed for selling mobile devices and services. It features a user-friendly Hero banner, Product Features, a Subscribe section, and FAQs, all enhanced with smooth, animated scrolling for a dynamic browsing experience.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "reactjs",
+          // color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "react_icons",
+          // color: "green-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      live_page: "",
+      image: socialx,
+      source_code_link: "https://github.com/shamsrza/socialx_react_app",
+      live_page: "https://socialx-react.vercel.app/",
       owb: undefined,
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
