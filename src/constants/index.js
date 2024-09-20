@@ -22,6 +22,7 @@ import {
     tesla,
     shopify,
     carrent,
+    portfolio,
     nsr,
     ssvisa,
     socialx,
@@ -212,6 +213,54 @@ import {
   
   const projects = [
     {
+      name: "SocialX",
+      description:
+        "SocialX is react landing page, designed for selling mobile devices and services. It features a user-friendly Hero banner, Product Features, a Subscribe section, and FAQs, all enhanced with smooth, animated scrolling for a dynamic browsing experience.",
+      tags: [
+        {
+          name: "reactjs",
+          // color: "blue-text-gradient",
+        },
+        {
+          name: "react_icons",
+          // color: "green-text-gradient",
+        },
+      ],
+      image: socialx,
+      source_code_link: "https://github.com/shamsrza/socialx_react_app",
+      live_page: "https://socialx-react.vercel.app/",
+      owb: undefined,
+    },
+    {
+      name: "My Portfolio",
+      description:
+        "The page is built using ReactJS, Three.js, and .gltf files, offering an immersive, interactive experience. Powered by Vite for lightning-fast performance and enhanced with Framer Motion for smooth animations, the page showcases cutting-edge web technologies to create dynamic, 3D visuals that bring projects to life in a sleek, modern interface.",
+      tags: [
+        {
+          name: "reactjs",
+          // color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          // color: "green-text-gradient",
+        },
+        {
+          name: "threeJS",
+          // color: "green-text-gradient",
+        },
+        // {
+        //   name: "vite",
+        // },
+        {
+          name: "3D_objects",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/shamsrza/portfolio-shams-2024",
+      live_page: "https://shams-rzayeva.vercel.app/",
+      owb: undefined,
+    },
+    {
       name: "The New Silk Road",
       description:
         "Oliver Wyman’s 'The New Silk Road' webpage highlights the immense growth and evolving connectivity across Asia, the Middle East, and North Africa. ",
@@ -265,26 +314,6 @@ import {
       live_page: "https://impact.oliverwyman.com/ksa-skillvisa-selfassessment/",
       owb: ow_brand,
     },
-    {
-      name: "SocialX",
-      description:
-        "SocialX is react landing page, designed for selling mobile devices and services. It features a user-friendly Hero banner, Product Features, a Subscribe section, and FAQs, all enhanced with smooth, animated scrolling for a dynamic browsing experience.",
-      tags: [
-        {
-          name: "reactjs",
-          // color: "blue-text-gradient",
-        },
-        {
-          name: "react_icons",
-          // color: "green-text-gradient",
-        },
-      ],
-      image: socialx,
-      source_code_link: "https://github.com/shamsrza/socialx_react_app",
-      live_page: "https://socialx-react.vercel.app/",
-      owb: undefined,
-    },
-    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

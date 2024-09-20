@@ -32,6 +32,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import nsr from "./new-silk-road_.png";
 import ssvisa from "./sa_visa_tool_ss.png";
+import portfolio from "./portfolio.png";
 import socialx from "./socialx.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -70,6 +71,7 @@ export {
   carrent,
   nsr,
   ssvisa,
+  portfolio,
   socialx,
   jobit,
   tripguide,
