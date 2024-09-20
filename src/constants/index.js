@@ -238,19 +238,13 @@ import {
       tags: [
         {
           name: "reactjs",
-          // color: "blue-text-gradient",
         },
         {
           name: "tailwind",
-          // color: "green-text-gradient",
         },
         {
           name: "threeJS",
-          // color: "green-text-gradient",
         },
-        // {
-        //   name: "vite",
-        // },
         {
           name: "3D_objects",
         },
